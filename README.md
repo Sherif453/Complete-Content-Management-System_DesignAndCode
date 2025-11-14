@@ -1,58 +1,38 @@
-Overview
+# Content Management System (CMS)
 
-This project is a Content Management System (CMS) implemented in Java, designed to demonstrate Object-Oriented Programming principles and key software design patterns.
+## Overview
+This project is a Content Management System (CMS) built in Java to demonstrate core OOP concepts and software design patterns.  
+It allows administrators to manage categories and content items while implementing:
 
-It allows administrators to manage content categories and content items, and demonstrates:
+- **Singleton** (single instance managers)  
+- **Proxy** (access control for category operations)  
+- **Observer** (automatic notifications when data changes)
 
-Singleton (single instance managers)
+## Key Features
+- **Admin Management:** Perform content and category operations  
+- **Category & Content Handling:** Add, update, and organize content items  
+- **Design Patterns Used:**  
+  - Singleton – Ensures one instance of key managers  
+  - Proxy – Restricts access to sensitive category operations  
+  - Observer – Updates dependent components automatically  
+- **Modular & Scalable:** Easy to extend and maintain
 
-Proxy (access control for category operations)
+## Class Structure
+- `Admin` – System administrator logic  
+- `Category` – Represents content categories  
+- `CategoryManager` – Handles category operations  
+- `CategoryManagerProxy` – Proxy enforcing access control  
+- `ContentItem` – Individual content items  
+- `Observer` – Observer pattern interface  
+- `ProxyInterface` – Proxy communication interface  
+- `Singleton` – Ensures single instance behavior  
+- `MainApp` – Application entry point
 
-Observer (notifications when content or categories change)
-
-Key Features
-
-Admin Management: Handle content and category operations
-
-Category & Content Management: Add, update, and organize content items
-
-Design Patterns Used:
-
-Singleton – Ensures a single instance for managers
-
-Proxy – Controls access to category management
-
-Observer – Notifies dependent objects of updates
-
-Modular & Scalable: Easily extendable and maintainable system
-
-Class Structure
-
-Admin – Represents the system administrator
-
-Category – Models content categories
-
-CategoryManager – Handles category operations
-
-CategoryManagerProxy – Proxy controlling access
-
-ContentItem – Represents individual content items
-
-Observer – Implements Observer pattern
-
-ProxyInterface – Interface used by the proxy
-
-MainApp – Application entry point
-
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/Sherif453/Complete-Content-Management-System_DesignAndCode.git
-
-
-Open the project in your preferred Java IDE (IntelliJ, Eclipse, NetBeans).
-
-Navigate to src/main/java/... and run MainApp.java.
-
-Follow the on-screen prompts.
+## How to Run
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Sherif453/Complete-Content-Management-System_DesignAndCode.git
+2.Open the project in IntelliJ, Eclipse, or NetBeans
+3.Navigate to src/main/java/...
+4.Run MainApp.java
+5.Follow the on-screen prompts

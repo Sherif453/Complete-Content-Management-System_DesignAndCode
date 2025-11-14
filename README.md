@@ -29,10 +29,12 @@ It allows administrators to manage categories and content items while implementi
 - `MainApp` – Application entry point
 
 ## How to Run
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Sherif453/Complete-Content-Management-System_DesignAndCode.git
-2.Open the project in IntelliJ, Eclipse, or NetBeans
-3.Navigate to src/main/java/...
-4.Run MainApp.java
-5.Follow the on-screen prompts
+1. Clone the repository: https://github.com/Sherif453/Complete-Content-Management-System_DesignAndCode.git
+2. Open the project in IntelliJ, Eclipse, or NetBeans
+3. Navigate to src/main/java/...
+4. Run MainApp.java and follow the on-screen prompts
+   
+
+
+
+   
